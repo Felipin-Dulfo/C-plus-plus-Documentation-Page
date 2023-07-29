@@ -1,0 +1,109 @@
+   	   *{
+			box-sizing: border-box;
+/*			margin: 0;*/
+/*			padding: 0;*/
+/*			scroll-behavior: smooth;*/
+		}
+		body{
+			display: flex;
+			gap: 10px;
+			font-family: 'Nunito', sans-serif;
+
+			color: #374151;
+			margin: 0;
+			padding: 0;
+		}
+		.column_one{	
+			position: fixed;
+			width: 280px; 
+			height: 100vh;
+			margin: 0;
+			background-color: #8ABC9F80;
+		}
+		.column_two{
+			margin-left: 280px;
+			border-left: 5px solid #999999;
+			padding-left: 35px;
+			padding-right: 35px;
+			font-size: 18px;
+		}
+		.nav{
+			height: 50px;
+			border-top: 1px solid #999999;
+			padding-left: 15px;
+
+		}
+		.nav_last{
+			height: 50px;
+			border-top: 1px solid #999999;
+			border-bottom: 1px solid #999999;
+			padding-left: 15px;			
+		}
+		.nav:hover, .nav_last:hover{
+			background-color: #C0CAC3;;
+		}
+		.scroll-container a{
+			text-decoration: none;
+			color: #374151;
+		}
+		.scroll-container {
+            height: 78vh;
+            overflow-y: scroll;
+        }
+        .scroll-container::-webkit-scrollbar {
+            width: 12px;
+        }
+        .scroll-container::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        .scroll-container::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+        .scroll-container::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        .scroll-container::-webkit-scrollbar-button {
+            display: none;
+        }
+        h1{
+			font-size: 2.6666667rem;
+        }
+        h1:not(.first_header_div){
+        	padding-top: 8vh;
+        }
+        .gray_bakcground_red_color{
+        	background-color: #D3D3D3;
+        	color: red;
+        	padding-left: 5px;
+        	padding-right: 5px;
+        }
+        .this_is_code{
+        	background: #011627;
+    		color: #d6deeb;
+        }
+        .first_header_div{
+        	font-size: 2rem;
+        	margin-left: 15px;
+        }
+
+        .dont_worry{
+        	background-color: #FFFFCC;
+        	padding: 20px;
+        }
+        h2, h3, strong{
+        	color: black;
+        }
+	    table {
+	      width: 100%;
+	      border-collapse: collapse;
+	    }
+	    th, td {
+	      border: 1px solid black;
+	      padding: 8px;
+	      background-color: white;
+	    }
+
+
+
+
+
